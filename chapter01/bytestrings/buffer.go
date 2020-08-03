@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 )
 
-// Buffer demostrates some tricks for initializing bytes Buffers
+// Buffer demonstrates some tricks for initializing bytes Buffers
 func Buffer(rawString string) *bytes.Buffer {
 
 	rawBytes := []byte(rawString)
