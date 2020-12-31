@@ -3,11 +3,11 @@ package main
 import (
 	"bytes"
 	"fmt"
+
 	"github.com/RanchoCooper/go-cookbook/chapter01/interfaces"
 )
 
 func main() {
-
 	in := bytes.NewReader([]byte("example"))
     out := &bytes.Buffer{}
 
