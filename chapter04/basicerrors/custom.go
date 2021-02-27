@@ -14,4 +14,3 @@ func SomeFunc() error {
 	c := CustomError{Result: "rancho"}
 	return c
 }
-

@@ -21,6 +21,6 @@ func FinalDestination() {
 	if err != nil {
 		// 将任何产生的意外记录到日志中
 		log.Printf("an error occurred: %s\n", err.Error())
-			return
+		return
 	}
 }

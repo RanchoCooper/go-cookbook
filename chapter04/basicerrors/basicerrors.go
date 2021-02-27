@@ -25,4 +25,3 @@ func BasicErrors() {
 		errors.New("typed error"),
 	}
 }
-

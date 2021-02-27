@@ -31,4 +31,3 @@ func toString(r io.Reader) (string, error) {
 
 	return string(b), nil
 }
-

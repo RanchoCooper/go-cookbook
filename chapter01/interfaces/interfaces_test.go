@@ -17,8 +17,8 @@ func TestCopy(t *testing.T) {
 		wantErr bool
 	}{
 		{
-			name: "base-case",
-			args: args{bytes.NewReader([]byte("example"))},
+			name:    "base-case",
+			args:    args{bytes.NewReader([]byte("example"))},
 			wantOut: "exampleexample",
 			wantErr: false,
 		},

@@ -10,9 +10,9 @@ import (
 
 // Movie will hold our parsed CSV
 type Movie struct {
-	Title string
+	Title    string
 	Director string
-	Year int
+	Year     int
 }
 
 // ReadCSV gives shows some examples of processing CSV
@@ -65,7 +65,6 @@ movie title;directory;year released
 Guardians of the Galaxy Vol. 2;James Gunn;2017
 Start Wars: Episode VIII;Rian Johnson;2017
 `
-
 
 	b := bytes.NewBufferString(in)
 	m, err := ReadCSV(b)

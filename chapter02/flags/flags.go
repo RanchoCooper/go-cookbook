@@ -6,9 +6,9 @@ import (
 )
 
 type Config struct {
-	subject string
-	isAwesome bool
-	howAwesome int
+	subject      string
+	isAwesome    bool
+	howAwesome   int
 	countTheWays CountTheWays
 }
 

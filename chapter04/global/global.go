@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	log *logrus.Logger
+	log     *logrus.Logger
 	initLog sync.Once
 )
 

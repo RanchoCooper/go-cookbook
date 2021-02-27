@@ -10,7 +10,7 @@ import (
 // a book has an Author and Title
 type Book struct {
 	Author string
-	Title string
+	Title  string
 }
 
 // Books is a named type for an array of books
@@ -41,11 +41,11 @@ func WriteCSVOutput() error {
 	b := Books{
 		Book{
 			Author: "F Scott Fitzgerald",
-			Title: "The Great Gatsby",
+			Title:  "The Great Gatsby",
 		},
 		Book{
 			Author: "J D Salinger",
-			Title: "The Catcher in the Rye",
+			Title:  "The Catcher in the Rye",
 		},
 	}
 	return b.ToCSV(os.Stdout)
@@ -56,11 +56,11 @@ func WriteCSVBuffer() (*bytes.Buffer, error) {
 	b := Books{
 		Book{
 			Author: "F Scott Fitzgerald",
-			Title: "The Great Gatsby",
+			Title:  "The Great Gatsby",
 		},
 		Book{
 			Author: "J D Salinger",
-			Title: "The Catcher in the Rye",
+			Title:  "The Catcher in the Rye",
 		},
 	}
 	w := &bytes.Buffer{}
