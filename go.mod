@@ -1,6 +1,6 @@
 module github.com/RanchoCooper/go-cookbook
 
-go 1.14
+go 1.16
 
 require (
 	github.com/apex/log v1.7.0
